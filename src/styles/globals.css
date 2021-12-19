@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar {
+  @apply w-64 bg-gradient-to-r from-yellow-100 via-red-100 to-pink-100 shadow flex-col justify-between;
+}
+
+.sidebar-route {
+  @apply rounded-md flex w-full justify-between cursor-pointer items-center m-3 p-3;
+}
+
+.input {
+  @apply p-2 border border-indigo-200 focus:outline-none focus:border-indigo-800 rounded-md shadow-sm;
+}
+
+.fondo {
+  background-image: url("https://cdn.pixabay.com/photo/2018/07/12/10/38/chemistry-3533039__340.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100% ;
+  text-align: center;
+  opacity: 0.2
+  ;
+}
+
+title{
+  padding-top: 5em;
+}
+
+.text {
+  
+  color: white;
+  font-weight: 900;
+  justify-content: center;
+  text-align: justify;
+  padding-top: 1em;
+  padding-left: 5em;
+  padding-right: 5em;
+}
